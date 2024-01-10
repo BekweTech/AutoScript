@@ -1,0 +1,4 @@
+#1
+//Command for adding users to a group. Saves time when you can remote into the shell instead of having to log into the server then open AD and etc.
+//Using the "Add-AdGroupMember" cmdlet, the group name is specified by the Identity parameter, and the user name is specified by the Members parameter.
+Add-ADGroupMember -Identity FINANCE -Members User.Name
